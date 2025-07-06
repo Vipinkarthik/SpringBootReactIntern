@@ -22,6 +22,11 @@ public class HelloWorldController
         //return "Hello From Hello World dc from rest controller";
     }
 
+    public List<Employee> getMethod()
+    {
+        return hws.getMethod();
+    }
+
     @PostMapping("/abc")
     public String postMethod()
     {
